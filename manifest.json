@@ -1,0 +1,41 @@
+{
+  "name": "ParkSpot — Free Parking Finder",
+  "short_name": "ParkSpot",
+  "description": "Find free and paid parking spots near you in real-time",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a0a0f",
+  "theme_color": "#0a0a0f",
+  "categories": ["navigation", "utilities"],
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Free Parkings",
+      "short_name": "Free",
+      "url": "/index.html?filter=free",
+      "description": "Show only free parking spots"
+    },
+    {
+      "name": "Nearby Spots",
+      "short_name": "Nearby",
+      "url": "/index.html?filter=available",
+      "description": "Show available spots near you"
+    }
+  ]
+}
